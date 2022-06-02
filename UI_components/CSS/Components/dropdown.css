@@ -1,0 +1,13 @@
+.dropdown-menu {
+  box-shadow: none;
+}
+
+.dropdown-menu  a {
+  font-weight: lighter !important;
+  color: lightgray !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.dropdown-menu a:hover {
+  color: gray !important;
+}

@@ -1,0 +1,22 @@
+.banner {
+  height: 100vh;
+  background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.4) 70%), url(https://picsum.photos/400/300?random);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}

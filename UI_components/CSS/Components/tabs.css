@@ -1,0 +1,38 @@
+.tabs {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 10px 10px 0 10px;
+  }
+
+.tabs h3 {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabs p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.tabs-items {
+  background-color: #756A66;
+  flex: 0 0 25%;
+  text-align: center;
+}
+
+.tabs-items:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.tabs-items:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.tabs-items.active {
+  background-color: white;
+  color: black;
+
+}
